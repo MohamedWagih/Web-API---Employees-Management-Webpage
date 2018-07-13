@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>API</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row justify-content-around">
+        <div class="col-lg-7">
+          <div class="wrap-table">
+            <h1 class="mt-10">Employees Data</h1>
+            <!-- <hr> -->
+            <div class="table-responsive">
+              <table class="table table-light table-striped">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Mobile</th>
+                    <th scope="col">Telephone</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Username</th>
+                    <th scope="col">Password</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody class="t-body">
+                </tbody>
+              </table>
+            </div>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-light btn-block" data-toggle="modal" data-target="#exampleModal" id="pla">Add Employee</button>
+            </div>
+          </div>
+          <div class="col-lg-3 ">
+            <div class="wrap-form">
+              <h1 class="mt-10 add">Add Employees</h1>
+              <form class="needs-validation" autocomplete="off">
+                  <div class="form-group"> 
+                      <!-- <label for="id_id" class="control-label">Id</label> -->
+                      <input type="text" class="form-control" id="id_id" name="id" placeholder="ID">
+                  </div>	
+              
+                  <div class="form-group"> 
+                      <!-- <label for="name_id" class="control-label">Name</label> -->
+                      <input type="text" class="form-control" id="name_id" name="name" placeholder="Employee Name">
+                  </div>					                     
+                  
+                  <div class="form-group"> 
+                    <!-- <label for="mobile_id" class="control-label">Mobile</label> -->
+                    <input type="text" class="form-control" id="mobile_id" name="mobile" placeholder="Mobile Number">
+                  </div>	
+                  
+                  <div class="form-group"> 
+                      <!-- <label for="Telephone_id" class="control-label">Telephone</label> -->
+                      <input type="text" class="form-control" id="telephone_id" name="Telephone" placeholder="Telephone">
+                  </div>
+
+                  <div class="form-group"> 
+                      <!-- <label for="address_id" class="control-label">Address</label> -->
+                      <input type="text" class="form-control" id="address_id" name="address" placeholder="Address">
+                  </div>									
+                                      
+                  <div class="form-group"> 
+                      <!-- <label for="userName_id" class="control-label">User Name</label> -->
+                      <input type="text" class="form-control" id="userName_id" name="userName" placeholder="User Name">
+                  </div>
+                  
+                  <div class="form-group"> 
+                          <!-- <label for="password_id" class="control-label">Password</label> -->
+                          <input type="password" class="form-control" id="password_id" name="password" placeholder="Password">
+                      </div>
+                  
+                  <!-- <div class="form-group"> 
+                      <button class="btn btn-light submit btn-block" id="submit">Submit</button>
+                  </div>      -->
+              </form>
+              <div class="row">
+                <div class="col">
+                  <button class="btn btn-success btn-block submit" id="submit">Submit</button>              
+                </div>
+                <div class="col">
+                  <button class="btn btn-primary btn-block submit" id="update">Update</button>              
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <footer>
+      <p>©2018 Copyright - <a href="https://mohamedwagih.github.io">Mohamed Wagih</a></p>
+    </footer>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/getData.js"></script>
+</body>
+</html>

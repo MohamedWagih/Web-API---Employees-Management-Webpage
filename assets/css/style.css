@@ -1,0 +1,111 @@
+body{
+    background: url(../images/bg-55.jpg);
+    /* background-size: cover;
+    background-position: initial; 
+    background-repeat: no-repeat; */
+    width: 100%;  
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+h1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+hr{
+    border-bottom: 2px solid crimson;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+button{
+    margin-top: 10px;
+}
+
+.container-fluid{
+    width: 100%;  
+    min-height: 100vh;
+    background: rgba(255,255,255,0.5);
+    padding-top: 100px;
+}
+
+.form-control{
+    background: transparent;
+    border-bottom: 1px solid white; 
+    border-top: 0px; 
+    border-left: 0px; 
+    border-right: 0px; 
+    color: white ;
+    outline-width: 0;
+}
+
+.form-control:focus{
+   background: transparent;
+   border-bottom: 1px solid white; 
+    border-top: 0px; 
+    border-left: 0px; 
+    border-right: 0px; 
+    color: white;
+    outline-width: 0;
+    outline: none;
+    
+}
+
+.form-control::placeholder{
+    color: rgba(255,255,255,0.8);
+}
+
+.wrap-form{
+    color: white;
+    text-align: center;
+    /* background: #80c64a; */
+    /* background: #3498db; */
+    background: rgba(6, 18, 26, 0.77);
+    /* background: rgba(106, 123, 142, 0.97); */
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.wrap-table{
+    color: white;
+    text-align: center;
+    /* background: #80c64a; */
+    /* background: #3498db; */
+    background: rgba(6, 18, 26, 0.77);
+    /* background: rgba(106, 123, 142, 0.97); */
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.fa-trash-alt{
+    color: white;
+}
+
+footer{
+    background: lightgrey;
+}
+
+footer p{
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+}
+
+table{
+    color: black;
+    border-radius: 10px;
+}
+
+thead{
+    border-radius: 10px;
+}
+
+td button{
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
